@@ -1,0 +1,29 @@
+{
+    "name": "OSINT",
+    "children": [
+        {
+            "name": "Pesquisa",
+            "children": [
+                {"name": "Google"},
+                {"name": "Bing"},
+                {"name": "DuckDuckGo"}
+            ]
+        },
+        {
+            "name": "Redes Sociais",
+            "children": [
+                {"name": "Facebook"},
+                {"name": "Twitter"},
+                {"name": "LinkedIn"}
+            ]
+        },
+        {
+            "name": "Ferramentas",
+            "children": [
+                {"name": "Whois"},
+                {"name": "Shodan"},
+                {"name": "Wayback Machine"}
+            ]
+        }
+    ]
+}
