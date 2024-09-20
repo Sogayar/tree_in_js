@@ -1,0 +1,58 @@
+
+body {
+  background-color: #dceefd; 
+  font-size: 16px;
+  font-family: "Helvetica Neue", Helvetica;
+}
+
+#body {
+  margin: 0 auto;
+  position: relative;
+}
+
+#header {
+  font-size: 45px;
+  font-weight: bold;
+  top: 20px;
+  text-align: center;
+  color: #756bb4; 
+  background-color: #ffffff; 
+}
+
+.legend {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  width: 330px;
+  font-size: 11px;
+  color: #778899; 
+}
+
+.node {
+  cursor: pointer;
+}
+
+.node circle {
+  cursor: pointer;
+  fill: #00ccff;
+  stroke: #066aee; 
+  stroke-width: 2px;
+}
+
+.node text {
+  font-size: 14px;
+  fill: rgb(0, 0, 0); 
+}
+
+path.link {
+  fill: none;
+  stroke: #74d7f8; 
+  stroke-width: 1px;
+}
+
+footer {
+  background-color: #5cacf7; 
+  color: #333; 
+  padding: 1px;
+  text-align: center;
+}

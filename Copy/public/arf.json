@@ -1,0 +1,400 @@
+{
+  "name": "TCU",
+  "type": "folder",
+  "children": [
+  {
+    "name": "Seinc",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Jorge",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Henrique",
+        "type": "url",
+        "url": "https://github.com/sogayar"
+      },
+      {
+        "name": "Eduardo",
+        "type": "url",
+        "url": "https://instagram.com/costelaa._"
+      },
+      {
+        "name": "outroEstagiário",
+        "type": "url",
+        "url": "http://knowem.com/"
+      },
+      {
+        "name": "outroEstagiário2",
+        "type": "url",
+        "url": "https://www.namecheckr.com/"
+      }]
+    },
+    {
+      "name": "Janaildo",
+      "type": "folder",
+      "children": [
+      {
+        "name": "outroEstagiário3",
+        "type": "url",
+        "url": "https://br.linkedin.com/in/henrique-sogayar-293bab1ba"
+      },
+      {
+        "name": "outroEstagiário4",
+        "type": "url",
+        "url": "https://api.github.com/users/%3Cusername%3E/events/public"
+      },
+      {
+        "name": "outroEstagiário5",
+        "type": "url",
+        "url": "https://www.gotinder.com/@%3Cusername%3E"
+      }]
+    }]
+  },
+  {
+    "name": "AudInovação",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Fábio",
+      "type": "folder",
+      "children": [
+      {
+        "name": "João Batista",
+        "type": "url",
+        "url": "https://thatsthem.com/reverse-email-lookup"
+      },
+      {
+        "name": "outroServidor",
+        "type": "url",
+        "url": "https://hunter.io/"
+      },
+      {
+        "name": "outroServidor2",
+        "type": "url",
+        "url": "http://www.melissadata.com/lookups/emails.asp"
+      },
+      {
+        "name": "outroServidor3",
+        "type": "url",
+        "url": "https://www.voilanorbert.com/"
+      }]
+    },
+    {
+      "name": "Common Email Formats",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Email Format",
+        "type": "url",
+        "url": "https://www.email-format.com/"
+      },
+      {
+        "name": "Toofr",
+        "type": "url",
+        "url": "https://www.toofr.com/"
+      },
+      {
+        "name": "Email Permutator",
+        "type": "url",
+        "url": "http://metricsparrow.com/toolkit/email-permutator/"
+      },
+      {
+        "name": "OneLook Reverse Dictionary and Thesaurus",
+        "type": "url",
+        "url": "http://www.onelook.com/reverse-dictionary.shtml"
+      }]
+    },
+    {
+      "name": "Email Verification",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Reacher Github (T)",
+        "type": "url",
+        "url": "https://github.com/reacherhq/check-if-email-exists"
+      },
+      {
+        "name": "Reacher Demo",
+        "type": "url",
+        "url": "https://reacher.email"
+      },
+      {
+        "name": "MailScrap",
+        "type": "url",
+        "url": "https://mailscrap.com/"
+      },
+      {
+        "name": "Read Notify",
+        "type": "url",
+        "url": "http://www.readnotify.com/"
+      },
+      {
+        "name": "Email Reputation",
+        "type": "url",
+        "url": "https://emailrep.io/"
+      },
+      {
+        "name": "MailboxValidator",
+        "type": "url",
+        "url": "https://www.mailboxvalidator.com/demo"
+      }]
+    },
+    {
+      "name": "Breach Data",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Have I been pwned?",
+        "type": "url",
+        "url": "https://haveibeenpwned.com/"
+      },
+      {
+        "name": "Hudson Rock",
+        "type": "url",
+        "url": "https://www.hudsonrock.com/threat-intelligence-cybercrime-tools"
+      },
+      {
+        "name": "DeHashed (R)",
+        "type": "url",
+        "url": "https://dehashed.com/"
+      },
+      {
+        "name": "Vigilante.pw",
+        "type": "url",
+        "url": "https://www.vigilante.pw/"
+      },
+      {
+        "name": "Ashley Madison Emails",
+        "type": "url",
+        "url": "https://ashley.cynic.al/"
+      }]
+    },
+    {
+      "name": "Mail Blacklists",
+      "type": "folder",
+      "children": [
+      {
+        "name": "MxToolbox",
+        "type": "url",
+        "url": "http://mxtoolbox.com/"
+      }]
+    }]
+  },
+  {
+    "name": "Images / Videos / Docs",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Videos",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Analyze / Record",
+        "type": "folder",
+        "children": [
+        {
+          "name": "DetURL",
+          "type": "url",
+          "url": "http://deturl.com/"
+        }]
+      }]
+    },
+    {
+      "name": "Webcams",
+      "type": "folder",
+      "children": [
+      {
+        "name": "SeeAllTheThings",
+        "type": "url",
+        "url": "https://github.com/baywolf88/seeallthethings"
+      },
+      {
+        "name": "Insecam",
+        "type": "url",
+        "url": "http://insecam.org/"
+      },
+      {
+        "name": "EarthCam",
+        "type": "url",
+        "url": "http://www.earthcam.com/"
+      }]
+    },
+    {
+      "name": "Documents",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Search",
+        "type": "folder",
+        "children": [
+        {
+          "name": "Common GoogleDorks",
+          "type": "folder",
+          "children": [
+          {
+            "name": "GoogleDocs (D)",
+            "type": "url",
+            "url": "https://www.google.com/?q=site:docs.google.com+%3Csearchterm%3E"
+          },
+          {
+            "name": "GoogleDrive (D)",
+            "type": "url",
+            "url": "https://www.google.com/?q=site:drive.google.com+%3Csearchterm%3E"
+          },
+          {
+            "name": "Dropbox (D)",
+            "type": "url",
+            "url": "https://www.google.com/?q=site:dl.dropbox.com+%3Csearchterm%3E"
+          },
+          {
+            "name": "Amazon AWS (D)",
+            "type": "url",
+            "url": "https://www.google.com/search?q=site:s3.amazonaws.com+%3Csearchterm%3E"
+          },
+          {
+            "name": "OneDrive (D)",
+            "type": "url",
+            "url": "https://www.google.com/search?safe=off&q=site:onedrive.live.com+%3Csearchterm%3E"
+          },
+          {
+            "name": "Cryptome (D)",
+            "type": "url",
+            "url": "https://www.google.com/search?q=site:cryptome.org+%3Csearchterm%3E"
+          }]
+        }]
+      },
+      {
+        "name": "Paste Sites",
+        "type": "folder",
+        "children": [
+        {
+          "name": "Pastebin Alerts",
+          "type": "url",
+          "url": "http://andrewmohawk.com/pasteLert/"
+        },
+        {
+          "name": "Just Paste It",
+          "type": "url",
+          "url": "https://justpaste.it/"
+        },
+        {
+          "name": "Pastebin OSINT Harvester (T)",
+          "type": "url",
+          "url": "https://github.com/needmorecowbell/sniff-paste"
+        }]
+      }]
+    },
+    {
+      "name": "Fonts",
+      "type": "folder",
+      "children": [
+      {
+        "name": "What The Font",
+        "type": "url",
+        "url": "https://www.myfonts.com/WhatTheFont/"
+      },
+      {
+        "name": "Font Squirrel",
+        "type": "url",
+        "url": "https://www.fontsquirrel.com/matcherator"
+      },
+      {
+        "name": "IdentiFont",
+        "type": "url",
+        "url": "http://www.identifont.com/index.html"
+      },
+      {
+        "name": "Font Spring",
+        "type": "url",
+        "url": "https://www.fontspring.com/matcherator"
+      },
+      {
+        "name": "What Font Is",
+        "type": "url",
+        "url": "https://www.whatfontis.com/"
+      }]
+    }]
+  },
+  {
+    "name": "Social Networks",
+    "type": "folder",
+    "children": [
+    {
+      "name": "Facebook",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Analytics",
+        "type": "folder",
+        "children": [
+        {
+          "name": "fb-sleep-stats (T)",
+          "type": "url",
+          "url": "https://github.com/sqren/fb-sleep-stats"
+        },
+        {
+          "name": "Facebook Scanner",
+          "type": "url",
+          "url": "http://stalkscan.com/en/"
+        }]
+      }]
+    },
+    {
+      "name": "Instagram",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Inflact Instagram Viewer (Anonymous)",
+        "type": "url",
+        "url": "https://inflact.com/profiles/instagram-viewer/"
+      },
+      {
+        "name": "Osintgram (T)",
+        "type": "url",
+        "url": "https://github.com/Datalux/Osintgram"
+      }]
+    },
+    {
+      "name": "Reddit",
+      "type": "folder",
+      "children": [
+      {
+        "name": "Reddit Metis",
+        "type": "url",
+        "url": "https://redditmetis.com/#"
+      }]
+    },
+    {
+      "name": "LinkedIn",
+      "type": "folder",
+      "children": [
+      {
+        "name": "LinkedInt - LinkedIn Recon Tool",
+        "type": "url",
+        "url": "https://github.com/vysec/LinkedInt"
+      },
+      {
+        "name": "ScrapedIn",
+        "type": "url",
+        "url": "https://github.com/dchrastil/ScrapedIn"
+      },
+      {
+        "name": "InSpy",
+        "type": "url",
+        "url": "https://github.com/leapsecurity/InSpy"
+      }]
+    },
+    {
+      "name": "Tiktok",
+      "type": "folder",
+      "children": [
+      {
+        "name": "TikTok Viewer",
+        "type": "url",
+        "url": "https://urlebird.com//"
+      }]
+    }]
+  }]
+}
