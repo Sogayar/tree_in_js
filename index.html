@@ -1,128 +1,38 @@
+
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Árvore OSINT com D3.js</title>
-    <script src="https://d3js.org/d3.v5.min.js"></script>
-    <style>
-        .node circle {
-            fill: #fff;
-            stroke: steelblue;
-            stroke-width: 3px;
-        }
-        .node text {
-            font: 12px sans-serif;
-        }
-        .link {
-            fill: none;
-            stroke: #ccc;
-            stroke-width: 2px;
-        }
-    </style>
+    <link type="text/css" rel="stylesheet" href="css/arf.css"/>
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <title>Árvore de Fraudes</title>
 </head>
 <body>
-    <h1>Árvore OSINT</h1>
-    <div id="body"></div>
-    <script>
-        var margin = {top: 20, right: 120, bottom: 20, left: 140},
-            width = 1280 - margin.right - margin.left,
-            height = 800 - margin.top - margin.bottom;
+    <!-- Cabeçalho da página -->
+    <header>
+        <h1>SeincAdjunta</h1>
+        <p>Proposta de facilitação do entendimento de novos auditores a entenderem as subfraudes dentro das fraudes</p>
+        <hr/>
+    </header>
 
-        var tree = d3.tree()
-            .size([height, width]);
+    <!-- Conteúdo principal da página -->
+    <main id="body">
+        <div id="content">
+        </div>
+    </main>
 
-        var svg = d3.select("#body").append("svg")
-            .attr("width", width + margin.right + margin.left)
-            .attr("height", height + margin.top + margin.bottom)
-            .append("g")
-            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+    <!-- Rodapé da página -->
+    <footer>
+        <p><Contate-me>Contate-me</Contate-me>:</p>
+        <ul>
+            <li>Email: x07030373154@tcu.gov.com</li>
+            <li>GitHub: <a href="https://github.com/sogayar">https://github.com/sogayar </a></li>
 
-        d3.json("data.json").then(function(data) {
-            var root = d3.hierarchy(data);
-            root.x0 = height / 2;
-            root.y0 = 0;
+        </ul>
+    </footer>
 
-            function collapse(d) {
-                if (d.children) {
-                    d._children = d.children;
-                    d._children.forEach(collapse);
-                    d.children = null;
-                }
-            }
-
-            root.children.forEach(collapse);
-            update(root);
-        });
-
-        function update(source) {
-            var nodes = tree(d3.hierarchy(root)).descendants();
-            var links = tree(d3.hierarchy(root)).links();
-
-            nodes.forEach(function(d) { d.y = d.depth * 180; });
-
-            var node = svg.selectAll("g.node")
-                .data(nodes, function(d) { return d.id || (d.id = ++i); });
-
-            var nodeEnter = node.enter().append("g")
-                .attr("class", "node")
-                .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-                .on("click", function(event, d) { 
-                    toggle(d); 
-                    update(d); 
-                });
-
-            nodeEnter.append("circle")
-                .attr("r", 10);
-
-            nodeEnter.append("text")
-                .attr("dy", ".35em")
-                .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
-                .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-                .text(function(d) { return d.data.name; });
-
-            var nodeUpdate = nodeEnter.merge(node);
-
-            nodeUpdate.transition()
-                .duration(750)
-                .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-
-            var link = svg.selectAll("path.link")
-                .data(links, function(d) { return d.target.id; });
-
-            link.enter().insert("path", "g")
-                .attr("class", "link")
-                .attr("d", function(d) {
-                    var o = {x: source.x0, y: source.y0};
-                    return diagonal({source: o, target: o});
-                })
-                .transition()
-                .duration(750)
-                .attr("d", diagonal);
-
-            link.exit().transition()
-                .duration(750)
-                .attr("d", function(d) {
-                    var o = {x: source.x, y: source.y};
-                    return diagonal({source: o, target: o});
-                })
-                .remove();
-
-            nodes.forEach(function(d) {
-                d.x0 = d.x;
-                d.y0 = d.y;
-            });
-        }
-
-        function toggle(d) {
-            if (d.children) {
-                d._children = d.children;
-                d.children = null;
-            } else {
-                d.children = d._children;
-                d._children = null;
-            }
-        }
-    </script>
+    <script src="js/arf.js"></script>
 </body>
 </html>
